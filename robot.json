@@ -6,10 +6,7 @@
 	// Example:
 	"Log to console": {
 		"prefix": ["log", "print"],
-		"body": [
-			"Log To Console  ${$1}",
-			"$2"
-		],
+		"body": "Log To Console  ${$1}",			
 		"description": "Log output to console"
 	},
 	"For loop":{
