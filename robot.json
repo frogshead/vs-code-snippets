@@ -22,6 +22,11 @@
 		"prefix": ["variable", "Variable"],
 		"body": "${$1}=  $0",
 		"description": "Create Robot variable"
+	},
+	"Run Keyword If": {
+		"prefix": ["run keyword if", "if"],
+		"body": "Run Keyword If  ${$1}==${$2}  $3",
+		"description": "Run keyword if  keyword template"
 	}
 
 }
