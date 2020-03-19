@@ -1,0 +1,23 @@
+{
+    "rfLanguageServer.includePaths": [
+        "Resources/**/*.robot",
+        "Tests/**/*.robot",
+        "Libraries/**/*.py",
+    ],
+    "rfLanguageServer.excludePaths": [
+        "EnvSetup",
+        "Jenkins"
+    ],
+    "rfLanguageServer.libraries": [
+        "BuiltIn-3.1.2",
+        "Collections-3.1.2",
+        "DateTime-3.1.2",
+        "OperatingSystem-3.1.2",
+        "Process-3.1.2",
+        "Screenshot-3.1.2",
+        "String-3.1.2",
+        "WhiteLibrary-1.6.0",
+        "XML-3.1.2",
+        "JSONLibrary-"
+    ]
+}
